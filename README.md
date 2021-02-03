@@ -26,7 +26,17 @@ This is a customizable SeekBar library on Android. Also, If you don't need indic
 ## Setup
 
 ```gradle
-implementation 'com.github.warkiz.widget:indicatorseekbar:2.1.1'
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+```gradle
+dependencies {
+    implementation 'com.github.jackpanz:indicatorseekbar-androidx:1.0.4'
+}
 ```
 
 ## Usage
