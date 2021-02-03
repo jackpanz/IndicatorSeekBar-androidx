@@ -1,1 +1,2 @@
-include ':app', ':indicatorseekbar'
+//include ':app'
+include ':indicatorseekbar'
