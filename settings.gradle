@@ -1,2 +1,0 @@
-include ':indicatorseekbar'
-rootProject.name = "indicatorseekbar_androidx"
